@@ -9,7 +9,7 @@ driver_path = os.path.join(os.getcwd(), 'drivers', 'chromedriver.exe')
 service = Service(driver_path)
 driver = webdriver.Chrome(service=service)
 
-# Lista de URLs do Rickroll (vídeo no YouTube)
+# URL do Rickroll (vídeo no YouTube)
 rickroll_url = "https://youtu.be/xvFZjo5PgG0?si=XWSkMjKNEUMXs6hP"
 
 # Abre 5 abas tocando Rickroll
@@ -32,5 +32,5 @@ for i in range(5):
 # Aguarda 10 segundos antes de fechar todas as abas
 time.sleep(7)
 
-# Fecha o navegador
+
 driver.quit()
