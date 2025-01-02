@@ -32,5 +32,5 @@ for i in range(5):
 # Aguarda 10 segundos antes de fechar todas as abas
 time.sleep(7)
 
-# Fecha o navegador
+
 driver.quit()
